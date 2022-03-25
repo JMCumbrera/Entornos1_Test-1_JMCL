@@ -32,7 +32,7 @@ class EjercicioParte2 {
 
     @Test
     @Order (4)
-    internal fun TestComprobacionNumeroMayor() {
+    internal fun `Test Comprobacion Numero Mayor`() {
         val arr1 = arrayOf(5,7,9,8,6)
         val arrFunc = ArrayFunctions(arr1)
 
@@ -42,7 +42,7 @@ class EjercicioParte2 {
 
     @Test
     @Order (2)
-    internal fun TestComprobacionContenidoArray() {
+    internal fun `Test Comprobacion Contenido Array`() {
         val arr1 = arrayOf(5,7,9,8,6)
         val arrFunc = ArrayFunctions(arr1)
 
@@ -52,7 +52,7 @@ class EjercicioParte2 {
 
     @Test
     @Order (3)
-    internal fun TestComprobacionTiposArrays() {
+    internal fun `Test Comprobacion Tipos Arrays`() {
         val arr1 = arrayOf(5,7,9,8,6)
         val arrFunc = ArrayFunctions(arr1)
 
@@ -62,7 +62,7 @@ class EjercicioParte2 {
 
     @Test
     @Order (1)
-    internal fun TestComprobacionTipoNumeroMaximo() {
+    internal fun `Test Comprobacion Tipo Numero Maximo`() {
         val arr1 = arrayOf(5,7,9,8,6)
         val arrFunc = ArrayFunctions(arr1)
 

@@ -7,7 +7,7 @@ import kotlin.test.*
 
 class EjercicioParte1 {
     @Test
-    internal fun TestsComprobacionArray() {
+    internal fun `Tests Comprobacion Array`() {
         val arr1 = arrayOf(5,7,9,8,6)
         val arrFunc = ArrayFunctions(arr1)
 
